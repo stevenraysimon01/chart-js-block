@@ -1,0 +1,31 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-wiley-charts {
+	background-color: #000;
+	color: #fff;
+	padding: 2px;
+}
+
+.myChartJSChart{
+	display: block;
+	width: 100% !important;
+	height: auto;
+}
+
+/* .myChartJSChart{
+	display: grid;
+	gap: 1em;
+	grid-template-rows: min-content minmax(0, 1fr) min-content;
+	grid-template-columns: 1fr minmax(0, 3r);
+	grid-template-areas: "a h"
+						 "a c"
+						 "a f";
+	height: calc(100vh - 2em);
+	width: calc(100vw - 2em);
+	margin: 1em;
+} */
